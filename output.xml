@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180708 13:47:02.025" generator="Robot 3.0.3 (Python 2.7.10 on darwin)">
+<suite source="/Users/whinstondj/Desktop/Arrays y Loops/trucosElementos.robot" id="s1" name="trucosElementos">
+<test id="s1-t1" name="001 Ir al blog de Winston Castillo">
+<kw name="Open Homepage" library="recursos">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${homePage}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20180708 13:47:02.733" level="INFO">Opening browser 'chrome' to base url 'http://www.winstoncastillo.com/udemy/'.</msg>
+<status status="PASS" endtime="20180708 13:47:10.400" starttime="20180708 13:47:02.733"></status>
+</kw>
+<status status="PASS" endtime="20180708 13:47:10.401" starttime="20180708 13:47:02.732"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Hola Mundo!</arg>
+</arguments>
+<msg timestamp="20180708 13:47:10.410" level="INFO">Page title is 'Hola Mundo!'.</msg>
+<status status="PASS" endtime="20180708 13:47:10.410" starttime="20180708 13:47:10.402"></status>
+</kw>
+<kw name="Set Focus To Element" library="SeleniumLibrary">
+<doc>Sets focus to element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/a[1]</arg>
+</arguments>
+<status status="PASS" endtime="20180708 13:47:10.459" starttime="20180708 13:47:10.410"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/a[1]</arg>
+</arguments>
+<msg timestamp="20180708 13:47:10.462" level="INFO">Clicking link 'xpath=/html/body/div[1]/div/div[2]/a[1]'.</msg>
+<status status="PASS" endtime="20180708 13:47:13.688" starttime="20180708 13:47:10.460"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=/html/body/header/div/div/div/div</arg>
+</arguments>
+<status status="PASS" endtime="20180708 13:47:13.738" starttime="20180708 13:47:13.688"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Winston Castillo – Un sitio para comunicarse</arg>
+</arguments>
+<msg timestamp="20180708 13:47:13.745" level="INFO">Page title is 'Winston Castillo – Un sitio para comunicarse'.</msg>
+<status status="PASS" endtime="20180708 13:47:13.745" starttime="20180708 13:47:13.738"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180708 13:47:14.281" starttime="20180708 13:47:13.745"></status>
+</kw>
+<status status="PASS" endtime="20180708 13:47:14.281" critical="yes" starttime="20180708 13:47:02.731"></status>
+</test>
+<test id="s1-t2" name="002 Abrir Ventana Modal">
+<kw name="Open Homepage" library="recursos">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${homePage}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20180708 13:47:14.285" level="INFO">Opening browser 'chrome' to base url 'http://www.winstoncastillo.com/udemy/'.</msg>
+<status status="PASS" endtime="20180708 13:47:17.681" starttime="20180708 13:47:14.284"></status>
+</kw>
+<status status="PASS" endtime="20180708 13:47:17.682" starttime="20180708 13:47:14.284"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Hola Mundo!</arg>
+</arguments>
+<msg timestamp="20180708 13:47:17.698" level="INFO">Page title is 'Hola Mundo!'.</msg>
+<status status="PASS" endtime="20180708 13:47:17.698" starttime="20180708 13:47:17.682"></status>
+</kw>
+<kw name="Set Focus To Element" library="SeleniumLibrary">
+<doc>Sets focus to element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/a[2]</arg>
+</arguments>
+<status status="PASS" endtime="20180708 13:47:17.750" starttime="20180708 13:47:17.699"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/a[2]</arg>
+</arguments>
+<msg timestamp="20180708 13:47:17.751" level="INFO">Clicking link 'xpath=/html/body/div[1]/div/div[2]/a[2]'.</msg>
+<status status="PASS" endtime="20180708 13:47:17.881" starttime="20180708 13:47:17.750"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Hola Mundo!</arg>
+</arguments>
+<msg timestamp="20180708 13:47:17.899" level="INFO">Page title is 'Hola Mundo!'.</msg>
+<status status="PASS" endtime="20180708 13:47:17.900" starttime="20180708 13:47:17.882"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="exampleModal"]/div/div/div[1]</arg>
+</arguments>
+<status status="PASS" endtime="20180708 13:47:18.200" starttime="20180708 13:47:17.900"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180708 13:47:18.444" starttime="20180708 13:47:18.201"></status>
+</kw>
+<status status="PASS" endtime="20180708 13:47:18.445" critical="yes" starttime="20180708 13:47:14.283"></status>
+</test>
+<status status="PASS" endtime="20180708 13:47:18.447" starttime="20180708 13:47:02.070"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="trucosElementos" pass="2">trucosElementos</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
