@@ -13,3 +13,6 @@ TC002 - Verify All Items Availability
         Click Element    xpath=//*[@id="back-to-products"]
     END
     Close Browser
+
+TC003 - New Test Case
+    Open Homepage and Login
